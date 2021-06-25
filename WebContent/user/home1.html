@@ -1,0 +1,145 @@
+<html>
+    <style>
+    header{
+    text-align: center;
+    font-style:inherit;
+    color: white;
+    padding: 14px 25px;
+    font-size: larger;
+    
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+body{
+    background-color: black;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+h1{
+    text-align: center;
+    font-style:inherit;
+    color: white;
+
+}
+p{
+    text-align: center;
+    color: white;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 235px;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+div1{
+    color: white;
+    text-align: center;
+}
+
+    </style>
+       <body>
+       <header>Employee Attendance Management system</header>
+       <ul>
+    <li><a href="#home" onclick="myFunction()">register</a></li>
+    <li><a href="#news" onclick="myFunction()">view</a></li>
+    <li><a href="#about" onclick="myFunction()">About us</a></li>
+    <li style="float:right"><a class="active" href="module.html">Login/Signup</a></li>
+
+   </ul>
+   <img src="images\presentation.jpg" width="1520" height="600">
+
+   <h1>ABOUT US</h1>
+  
+   <h1>Company Directories</h1>  
+   <p>Links to global, national and regional directories listing companies and businesses.</p> 
+   <h1>Company Extensions</h1>
+   <p>Useful listing of company extensions and security identifiers, with country of origin and a concise definition of company type. The listing is produced by Corporate Information as part of their huge company information service, and includes direct links to listings of company information sources for each country.</p>
+   <h1>Corporate Information</h1>
+   <p>Company information service that provides corporate profiles, listings of international company directories, industry-specific reports, a listing of company extensions, international business news, research reports, and state-by-state US company information sources. Research a country, a country's industries or individual companies. Registration is free.</p>
+   <div class="gallery">
+    <a target="_blank" href="images\office.jpg">
+      <img src="images\office.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div1 class="desc">Office</div1>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="images\cafe.jpg">
+      <img src="images\cafe.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div1 class="desc">Office cafeteria</div1>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images\meeting.jpg">
+      <img src="images\meeting.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div1 class="desc">meeting room</div1>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="images\reception.jpg">
+      <img src="images\reception.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div1 class="desc">Reception</div1>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="images\meeting.jpg">
+      <img src="images\meeting.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div1 class="desc">meeting room</div1>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" href="images\reception.jpg">
+      <img src="images\reception.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div1 class="desc">Reception</div1>
+  </div>
+   
+    </body>
+    <script>
+function myFunction() {
+  alert("First login to access");
+}
+</script>
+        
+</html>

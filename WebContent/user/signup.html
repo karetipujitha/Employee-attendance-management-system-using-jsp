@@ -1,0 +1,115 @@
+<html>
+    <style>
+        html{
+            height: 100%;
+        }
+        
+        .login{  
+        width: 370px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 470px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+} 
+#name{
+    height: 30px;
+    width: 300px;
+    padding-left:8px ;
+    border-radius: 3px; 
+    border: none;
+    
+}
+#pass{
+    height: 30px;
+    width: 300px;
+    padding-left:8px ;
+    border-radius: 3px; 
+    border: none;
+    
+}
+#mail{
+    height: 30px;
+    width: 300px;
+    padding-left:8px ;
+    border-radius: 3px; 
+    border: none;
+    
+}
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+} 
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(204, 0, 255);  
+}
+#uname{
+    height: 30px;
+    width: 300px;
+    padding-left:8px ;
+    border-radius: 3px; 
+    border: none;
+    
+}
+span{  
+    color: white;  
+    font-size: 17px;  
+}
+button{
+    color: black;
+    background-color: cyan;
+    
+}
+input[type=submit]
+{
+    
+    background-color: cyan;
+} 
+h1{
+    text-align: center;
+    color: black;
+}
+body{
+    align-content: center;
+    background-color:#6abadeba
+}
+    </style>
+    <body>
+     <title>signup</title>
+        <h1>ADD USER</h1>
+        <div class="login">    
+            <form name="f" method="post" action="adduser.jsp">    
+                                
+                <label><b>id</b></label>
+                <br>    
+                <input type="text" name="id" placeholder="Enter ID" Required>    
+                <br><br>  
+                <label><b>name</b></label>
+                <br>    
+                <input type="text" name="name" placeholder="Enter Name" Required>    
+                <br><br>  
+                <label><b>email</b></label>
+                <br>    
+                <input type="text" name="email" placeholder="Enter Email" Required>    
+                <br><br>    
+                                <label><b>Password</b></label> 
+                <br>   
+                <input type="password" name="pwd" placeholder="enter password" Required>    
+                <br><br>   
+                  
+                 
+                 <button><input type="submit" value="Register"></button>
+                
+            </form>     
+        </div>  
+        
+        
+    </body>
+</html>
